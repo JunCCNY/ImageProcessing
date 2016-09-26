@@ -1,0 +1,65 @@
+﻿Build started 09/25/16 18:28:55.
+     1>Project "E:\Dropbox\Academic\2016Fall\CSc470\HW\github\ImageProcessing\qip.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing Clip.h...
+         Qt: Untested Windows version 10.0 detected!
+         Moc'ing Contrast.h...
+         Qt: Untested Windows version 10.0 detected!
+         Moc'ing Dummy.h...
+         Qt: Untested Windows version 10.0 detected!
+         Moc'ing Gamma.h...
+         Qt: Untested Windows version 10.0 detected!
+         Moc'ing HistoMatch.h...
+         Qt: Untested Windows version 10.0 detected!
+         Moc'ing HistoStretch.h...
+         Qt: Untested Windows version 10.0 detected!
+         Moc'ing MainWindow.h...
+         Qt: Untested Windows version 10.0 detected!
+         Moc'ing Quantize.h...
+         Qt: Untested Windows version 10.0 detected!
+         Moc'ing Threshold.h...
+         Qt: Untested Windows version 10.0 detected!
+         Moc'ing qcustomplot.h...
+         Qt: Untested Windows version 10.0 detected!
+       ClCompile:
+         D:\Visual Studio Pro 2013\VC\bin\x86_amd64\CL.exe /c /I. /IIP\win\header /ID:\qt\5.4\msvc2013_64_opengl\include /ID:\qt\5.4\msvc2013_64_opengl\include\QtPrintSupport /ID:\qt\5.4\msvc2013_64_opengl\include\QtWidgets /ID:\qt\5.4\msvc2013_64_opengl\include\QtGui /ID:\qt\5.4\msvc2013_64_opengl\include\QtCore /Imoc /I"D:\qt\5.4\msvc2013_64_opengl\mkspecs\win32-msvc2013" /Zi /nologo /W3 /WX- /MP /Od /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt -Zm200 -w34100 -w34189 HistoMatch.cpp moc\moc_Clip.cpp moc\moc_Contrast.cpp moc\moc_Dummy.cpp moc\moc_Gamma.cpp moc\moc_HistoMatch.cpp moc\moc_HistoStretch.cpp moc\moc_MainWindow.cpp moc\moc_Quantize.cpp moc\moc_Threshold.cpp moc\moc_qcustomplot.cpp
+         HistoMatch.cpp
+         moc_Clip.cpp
+         moc_Contrast.cpp
+         moc_Dummy.cpp
+         moc_Gamma.cpp
+         moc_HistoMatch.cpp
+         moc_HistoStretch.cpp
+         moc_MainWindow.cpp
+         moc_Quantize.cpp
+         moc_Threshold.cpp
+         moc_qcustomplot.cpp
+       Link:
+         D:\Visual Studio Pro 2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\qip.exe" /NOLOGO /LIBPATH:D:\qt\5.4\msvc2013_64_opengl\lib /LIBPATH:D:\QT\5.4\msvc2013_64_opengl\lib /LIBPATH:D:\QT\5.4\msvc2013_64_opengl\lib /LIBPATH:.\IP\win\lib glu32.lib opengl32.lib gdi32.lib user32.lib D:\qt\5.4\msvc2013_64_opengl\lib\qtmaind.lib shell32.lib D:\QT\5.4\msvc2013_64_opengl\lib\Qt5Cored.lib .\IP\win\lib\IP_d.lib D:\qt\5.4\msvc2013_64_opengl\lib\Qt5PrintSupportd.lib D:\qt\5.4\msvc2013_64_opengl\lib\Qt5Widgetsd.lib D:\qt\5.4\msvc2013_64_opengl\lib\Qt5Guid.lib D:\qt\5.4\msvc2013_64_opengl\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\qip.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Debug\Clip.obj
+         x64\Debug\Contrast.obj
+         x64\Debug\Dummy.obj
+         x64\Debug\Gamma.obj
+         x64\Debug\HistoMatch.obj
+         x64\Debug\HistoStretch.obj
+         x64\Debug\ImageFilter.obj
+         x64\Debug\MainWindow.obj
+         x64\Debug\moc_Clip.obj
+         x64\Debug\moc_Contrast.obj
+         x64\Debug\moc_Dummy.obj
+         x64\Debug\moc_Gamma.obj
+         x64\Debug\moc_HistoMatch.obj
+         x64\Debug\moc_HistoStretch.obj
+         x64\Debug\moc_MainWindow.obj
+         x64\Debug\moc_qcustomplot.obj
+         x64\Debug\moc_Quantize.obj
+         x64\Debug\moc_Threshold.obj
+         x64\Debug\Quantize.obj
+         x64\Debug\Threshold.obj
+         x64\Debug\main.obj
+         x64\Debug\qcustomplot.obj
+         qip.vcxproj -> E:\Dropbox\Academic\2016Fall\CSc470\HW\github\ImageProcessing\debug\qip.exe
+     1>Done Building Project "E:\Dropbox\Academic\2016Fall\CSc470\HW\github\ImageProcessing\qip.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.64
